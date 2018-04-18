@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Static Comp 3</title>
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	</head>
+	<body>
+		<aside>
+			<img src = "images/headshot.gif" class="headshot" alt="Megan Haubelt headshot">
+			<h1 class="name">Megan Haubelt</h1>
+			<hr class="aside-hr">
+			<h2 class="aside-title">Main</h2>
+			<ul class="aside-list">
+				<li class="aside-row"><img src="images/home.png" class="aside-logo"><a href="www.google.com" class=left-nav-title>HOME</a></li>
+				<li class="aside-row"><img src="images/jobs.png" class="aside-logo"><a href="www.google.com" class=left-nav-title>JOBS</a></li>
+				<li class="aside-row"><img src="images/resume.png" class="aside-logo"><a href="www.google.com" class=left-nav-title>RESUMES</a></li>
+				<li class="aside-row"><img src="images/tasks.png" class="aside-logo"><a href="www.google.com" class=left-nav-title>TASKS</a></li>
+				<li class="aside-row"><img src="images/calendar.png" class="aside-logo"><a href="www.google.com" class=left-nav-title>CALENDAR</a></li>
+			</ul>
+			<hr class="aside-hr">
+			<h2 class="aside-title">Admin</h2>
+			<ul class="aside-list">
+				<li class="aside-row"><img src="images/users.png" class="aside-logo"><a href="www.google.com" class=left-nav-title>USERS</a></li>
+				<li class="aside-row"><img src="images/location.png" class="aside-logo"><a href="www.google.com" class=left-nav-title>LOCATIONS</a></li>
+				<li class="aside-row"><img src="images/workflow.png" class="aside-logo"><a href="www.google.com" class=left-nav-title>WORKFLOWS</a></li>
+				<li class="aside-row"><img src="images/jobboard.png" class="aside-logo"><a href="www.google.com" class=left-nav-title>JOB BOARDS</a></li>
+				<li class="aside-row"><img src="images/social.png" class="aside-logo"><a href="www.google.com" class=left-nav-title>SOCIAL</a></li>
+			</ul>
+			<hr class="aside-hr">
+			<h2 class="aside-title">Categories</h2>
+			<ul class="aside-list">
+				<li class="aside-row"><input type="checkbox" id="checkbox_1" class="checkbox_1" >
+    			<label for="checkbox_1" class=left-nav-title>Administrative</label></li>
+    		<li class="aside-row"><input type="checkbox" id="checkbox_2" class=left-nav-title>
+    			<label for="checkbox_2" class=left-nav-title>Design</label></li>
+    		<li class="aside-row"><input type="checkbox" id="checkbox_3" class=left-nav-title>
+    			<label for="checkbox_3" class=left-nav-title>Executive</label></li>
+    		<li class="aside-row"><input type="checkbox" id="checkbox_4" class=left-nav-title>
+    			<label for="checkbox_4" class=left-nav-title>Human Resources</label></li>
+			</ul>
+		</aside>
+		<main>	
+			<header>
+				<img src="images/hamburger.png" class="hamburger-icon" alt="Click to hide aside bar on left">
+				<input type="text" class="search" placeholder="Search for a job, task or resume" aria-label="search for job, task or resume"></input>
+				<img src="images/top-user.png" class="top-logo" alt="User link"> 
+				<img src="images/calendar.png" class="top-logo" alt="Calendar link">
+				<img src="images/top-resume.png" class="top-logo" alt="Resume link">
+			</header>
+			<menu>
+				<div class="top-buttons">
+					<h6 class="open"><img src="images/greencircle.png" class="greencircle" alt="Open positions">Open</h6>
+					<img src="images/bookmark.png" class="bookmark" alt="Bookmark">
+					<img src="images/pencil.png" class="pencil" alt="Compose new email">
+					<img src="images/trash.png" class="trash" alt="Delete">
+				</div> 
+				<h1 class="position">Customer Service Representative</h1>
+				<img src=""><h1 class="position-location">San Francisco, CA - <span><a href="http://www.google.com" class="preview">Preview this post</a></span></h1>
+				<ul class="main-nav-bar">
+					<li class="main-nav first"><a href="http://www.google.com" class=main-nav-link>SUMMARY</a></li>
+					<li class="main-nav"><a href="http://www.google.com" class=main-nav-link>APPLICANTS</a></li>
+					<li class="main-nav"><a href="http://www.google.com" class=main-nav-link>JOB BOARD</a></li>
+					<li class="main-nav"><a href="http://www.google.com" class=main-nav-link>INTERVIEWS</a></li>
+					<li class="main-nav"><a href="http://www.google.com" class=main-nav-link>ACTIVITY</a></li>
+					<li class="main-nav"><a href="http://www.google.com" class=main-nav-link>BROADCAST</a></li>
+					<li class="main-nav"><a href="http://www.google.com" class=main-nav-link>NOTIFICATIONS</a></li>
+				</ul>
+			</menu>
+			<section class="grid">
+				<div class="container">
+					<article class="graphs">
+						<div class=circle-graphs>
+							<svg viewBox="0 0 42 42" class="circle-graph" alt="Circular graph with current number of applicants">
+			  				<circle class="circle-hole" cx="21" cy="21" r="15.9" fill="#dcdcdc"></circle>
+			  				<circle class="circle-ring" cx="21" cy="21" r="15.9" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+			  				<g class="circle-title">
+			  					<text x="50%" y="50%" class="circle-text-top">3,154</text>
+			  					<text x="50%" y="50%" class="circle-text-bottom">APPLICANTS</text>
+			  				</g>
+			  				<circle class="circle-segment" cx="21" cy="21" r="15.9" fill="transparent" stroke="#48d1dc" stroke-width="3" stroke-dasharray="90 10"></circle>
+							</svg>
+							<svg viewBox="0 0 42 42" class="circle-graph" alt="Circular graph with current number of interviews">
+			  				<circle class="circle-hole" cx="21" cy="21" r="15.9" fill="#dcdcdc"></circle>
+			  				<circle class="circle-ring" cx="21" cy="21" r="15.9" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+			  				<g class="circle-title" >
+			  					<text x="50%" y="50%" class="circle-text-top">1,546</text>
+			  					<text x="50%" y="50%" class="circle-text-bottom">INTERVIEWS</text>
+			  				</g>
+			  				<circle class="circle-segment" cx="21" cy="21" r="15.9" fill="transparent" stroke="#4169e1" stroke-width="3" stroke-dasharray="70 30"></circle>
+							</svg>
+							<svg viewBox="0 0 42 42" class="circle-graph" alt="Circular graph with current number of forwards">
+			  				<circle class="circle-hole" cx="21" cy="21" r="15.9" fill="#dcdcdc"></circle>
+			  				<circle class="circle-ring" cx="21" cy="21" r="15.9" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+			  				<g class="circle-title">
+			  					<text x="50%" y="50%" class="circle-text-top">912</text>
+			  					<text x="50%" y="50%" class="circle-text-bottom">FORWARDS</text>
+			  				</g>
+			  				<circle class="circle-segment" cx="21" cy="21" r="15.9" fill="transparent" stroke="#9932cc" stroke-width="3" stroke-dasharray="20 80"></circle>
+							</svg>
+							<button class="graph-totals" aria-label="Current total views">TOTALS-Out of 5,281 views</button>
+						</div>
+						<div class="bar-graph">
+							<img src="images/bar-graph.jpeg" class="bargraph-image" alt="Bar graph with current number of interviews, applicants, and forwards">
+							<button class="bargraph-button" aria-label="Current applicants per day">APPLICANTS/DAY</button>
+						</div>
+					</article>
+				</div>
+				<hr class="main-hr">
+				<article class="left-container">
+					<ul class=" left table">
+						<li class="table-header">
+							<h4 class="header-left">JOB DESCRIPTION<button class="edit-button">Edit</button></h4>
+						</li>
+						<li class="table-row">
+							<h4 class="table-left">POSITION TITLE </h4>
+							<p class="table-right">Customer Service Representative</p>
+						</li>
+						<li class="table-row">
+							<h4 class="table-left">LOCATION </h4>
+							<p class="table-right">San Francisco, CA</p>
+						</li>
+						<li class="table-row">
+							<h4 class="table-left">EMPLOYMENT TYPE</h4>
+							<p class="table-right">Full-time</p>
+						</li>
+						<li class="table-row">
+							<h4 class="table-left">STATUS</h4>
+							<p class="table-right">Open</p>
+						</li>
+						<li class="table-row">
+							<h4 class="table-left description">DESCRIPTION </h4>
+							<p class="table-right">The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich. </p>
+						</li>
+						<li class="table-row">
+							<h4 class="table-left">HIRING LEAD</h4>
+							<p class="table-right image"><img src="images/table-headshot.gif" class="table-headshot">Tom Izzy</p>
+						</li>
+						<li class="salary">
+							<h4 class="table-left">APPROVED SALARY</h4>
+							<p class="table-right">$58,000</p>
+						</li>
+					</ul>
+				</article>
+				<article class="right-container">
+					<button class="facebook"><img src="images/facebook.png" class="facebook-logo" aria-label="Post to Facebook link">Post to Facebook</button>
+					<button class="twitter"><img src="images/twitter.png" class="twitter-logo" aria-label="Tweet this job">Tweet this job</button>
+					<button class="linkedin"><img src="images/linkedin.png" class="linkedin-logo" aria-label="Post to Linkedin">Post to Linkedin</button>
+					<h4 class="title-bottom"><img src="images/globe.png" class="logo-bottom" alt="globe icon" >Link to this job</h4>
+					<p class="links-bottom">Lorem ipsum dolor sit amet, consectetur adipis cing elit. Integer mollis neque eget.</p>
+					<input type="text" class="copy-input" placeholder="http://loremipsum.dol/sit amet..." aria-label="Search links for jobs">
+					<button class="copy-button">Copy</button>
+					<hr class="right-hr">
+					<h4 class="title-bottom"><img src="images/widget.png" class="logo-bottom" alt="widget icon">Use the Button Widget</h4>
+					<p class="links-bottom">This widget embeds the buttons for sharing the job for submitting a resume.</p>
+					<input type="text" class="copy-input" placeholder="<script type='text/javscript's" aria-label="Share jobs">
+					<button class="copy-button">Copy</button>
+					<hr class="right-hr">
+					<h4 class="title-bottom"><img src="images/upload.png" class="logo-bottom" alt="upload icon">Upload Resumes by Email</h4>
+					<p class="links-bottom">You can automatically upload resumes to this job by emailing the address below.</p>
+					<input type="text" class="copy-input-last" placeholder="tomtizzy@gmail.com" aria-label="Insert email to upload resume">
+				</article>
+			</section>
+		</main>
+	</body>
+</html>
